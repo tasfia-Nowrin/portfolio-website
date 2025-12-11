@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: #f9d9d7;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 60px;
+    background: white;
+    border-radius: 40px;
+    width: 85%;
+    margin: 20px auto;
+    border: 2px solid #d4d4d4;
+}
+
+.logo {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.hero {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.hi {
+    font-size: 28px;
+}
+
+.hero h1 {
+    font-size: 40px;
+    margin-top: 10px;
+}
+
+.hero h1 span {
+    color: #007bff;
+    font-weight: 600;
+}
+
+.social-icons {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+}
+
+.social-icons img {
+    width: 30px;
+    cursor: pointer;
+}
+
+.buttons {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.btn {
+    padding: 12px 30px;
+    border: 2px solid #007bff;
+    border-radius: 40px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.btn-portfolio {
+    background: white;
+    color: #007bff;
+}
+
+.btn-cv {
+    background: white;
+    color: #007bff;
+}
