@@ -10,7 +10,6 @@ body {
     color: #000;
 }
 
-/* NAVBAR */
 .navbar {
     max-width: 1200px;
     margin: auto;
@@ -40,7 +39,6 @@ body {
     font-weight: 500;
 }
 
-/* HERO SECTION */
 .hero {
     height: calc(100vh - 120px);
     display: flex;
@@ -65,7 +63,6 @@ body {
     font-style: italic;
 }
 
-/* SOCIAL ICONS */
 .social-icons {
     display: flex;
     gap: 25px;
@@ -90,7 +87,6 @@ body {
     color: #fff;
 }
 
-/* BUTTONS */
 .buttons {
     display: flex;
     gap: 40px;
