@@ -7,7 +7,11 @@
 
 body {
     background: #fdeeee;
-    color: #000;
+    color: #111;
+}
+
+header {
+  padding: 20px 40px;
 }
 
 .navbar {
@@ -27,20 +31,29 @@ body {
 .nav-links {
     list-style: none;
     display: flex;
-    gap: 30px;
-    padding: 12px 25px;
+    gap: 22px;
+    padding: 12px 28px;
     border: 2px solid #1e90ff;
     border-radius: 40px;
+    background: transparent;
 }
 
-.nav-links a {
+.nav-links a{
     text-decoration: none;
-    color: #000;
+    color: #111;
+    font-size: 14;
+    transition: 0.3s ease;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+    text-decoration: none;
+    color: #1e90ff;
     font-weight: 500;
 }
 
 .hero {
-    height: calc(100vh - 120px);
+    min-height: 75vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -49,12 +62,12 @@ body {
 }
 
 .hi {
-    font-size: 22px;
-    margin-bottom: 10px;
+    font-size: 18px;
+    margin-bottom: 8px;
 }
 
 .hero h1 {
-    font-size: 42px;
+    font-size: 40px;
     font-weight: 600;
 }
 
@@ -64,9 +77,8 @@ body {
 }
 
 .social-icons {
-    display: flex;
-    gap: 25px;
-    margin: 35px 0;
+    border: 2px solid #1e90ff;
+    border-radius: 40px;
 }
 
 .social-icons a {
@@ -83,27 +95,55 @@ body {
 }
 
 .social-icons a:hover {
+    transform: scale(1.2);
     background: #1e90ff;
     color: #fff;
 }
 
 .buttons {
     display: flex;
-    gap: 40px;
+    gap: 30px;
     margin-top: 20px;
 }
 
 .btn {
-    padding: 14px 32px;
+    padding: 12px 30px;
     border-radius: 40px;
     text-decoration: none;
     font-weight: 500;
     border: 2px solid #1e90ff;
-    color: #fff;
+    color: #111;
+    transition: 0.3s ease;
     background: #1e90ff;
+}
+
+.btn:hover {
+  background-color: #1e90ff;
+  color: #fff;
 }
 
 .btn-outline {
     background: transparent;
     color: #000;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .nav-links {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .hero h1 {
+    font-size: 30px;
+  }
+
+  .buttons {
+    flex-direction: column;
+    gap: 15px;
+  }
 }
