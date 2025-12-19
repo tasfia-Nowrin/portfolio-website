@@ -1,6 +1,6 @@
-# Portfolio Website
+# 🌐 Personal Portfolio Website
 
-This is my personal portfolio website built using HTML, CSS and JavaScript.
+This is my personal portfolio website built using **HTML & CSS**.
 
 ## Features
 - Responsive design
@@ -9,7 +9,27 @@ This is my personal portfolio website built using HTML, CSS and JavaScript.
 - Downloadable CV
 - Contact information
 
+## 🎨 Figma Design
+🔗 https://www.figma.com/proto/tXjt3uggFFGQSOpC4ojIER/Portfolio-landing-Page?node-id=0-1&t=fxc2NFcHH1EG0vhg-1
+
+## 📌 Pages
+- Home
+- About Me
+- Education
+- Projects
+- Publications
+- Achievements
+- Contact
+
+## 🛠 Tools & Technologies
+- HTML
+- CSS
+- Figma
+
 ## Installation Steps
 1. Clone this repository  
    ```bash
    git clone https://github.com/tasfia-Nowrin/portfolio-website.git
+
+## 👩‍💻 Author
+**Tasfia Nowrin**
