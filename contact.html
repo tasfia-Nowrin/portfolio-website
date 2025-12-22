@@ -9,6 +9,7 @@
 <body>
     <header>
         <nav class="navbar">
+            <div class="logo">✨ Mayesha</div>
             <ul class="nav-links">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About me</a></li>
@@ -21,21 +22,38 @@
         </nav>
     </header>
 
-    <section class="page contact">
-        <h2 class="page-title">Connect</h2>
-        <p class="page-subtitle">Get In Touch</p>
-        <p class="contact-text">
+    <section class="contact-section">
+        <h2 class="section-title">Connect</h2>
+        <p class="section-subtitle">
+            Get In Touch<br>
             Feel free to connect with me for academic discussions, projects, or learning opportunities.
         </p>
-        <h3 class="contact-heading">Contact Information:</h3>
-        <ul class="contact-info">
-            <li>📧 <strong>Email:</strong> tasfianowrin338@email.com, nowrintasfia157@gmail.com</li>
-            <li>📍 <strong>Location:</strong> Chattogram, Bangladesh</li>
-            <li>🎓 <strong>University:</strong> International Islamic University Chattogram</li>
-        </ul>
+
+        <div class="contact-grid">
+
+            <div class="contact-card">
+                <h3>Contact Information</h3>
+                <p>📧 Email: tasfianowrin338@gmail.com, nowrintasfia157@gmail.com</p>
+                <p>📍 Location: Sitakunda, Chattogram, Bangladesh</p>
+                <p>🎓 University: International Islamic University Chattogram</p>
+            </div>
+
+            <div class="contact-card">
+                <form id="contactForm">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" placeholder="Your Message" required></textarea>
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+        
+        </div>
         <p class="contact-footer">
             I'm always open to learning, collaboration, and meaningful conversations.
         </p>
     </section>
+
+    <script src="script.js"></script>
+
 </body>
 </html>
