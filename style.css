@@ -87,6 +87,18 @@ header {
     flex-direction: column;
     gap: 20px;
   }
+
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .publication-cards {
+    flex-direction: column;
+  }
+
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
   }
 
 .btn {
@@ -219,7 +231,7 @@ header {
   background: #fff;
 }
 
-.skill:hover {
+.skill-pill:hover {
   background: #1e90ff;
   color: #fff;
 }
@@ -299,6 +311,7 @@ header {
   border: 2px solid #1e88ff;
   border-radius: 18px;
   padding: 22px;
+  transition: all 0.3s ease;
 }
 
 .project-card img {
@@ -306,13 +319,6 @@ header {
   max-height: 180px;
   object-fit: contain;
   margin-bottom: 16px;
-}
-
-.project-title {
-  font-size: 18px;
-  font-weight: 600;
-  color: #1e88ff;
-  margin-bottom: 4px;
 }
 
 .project-meta {
@@ -331,19 +337,9 @@ header {
   font-size: 14px;
 }
 
-.project-card {
-  transition: all 0.3s ease;
-}
-
 .project-card:hover {
   transform: translateY(-4px);
   box-shadow: 0 10px 22px rgba(0,0,0,0.08);
-}
-
-@media (max-width: 768px) {
-  .projects-grid {
-    grid-template-columns: 1fr;
-  }
 }
 
 .publications-section {
@@ -351,13 +347,13 @@ header {
   background-color: #fff1ee; 
 }
 
-.section-title {
+.publications-title {
   font-size: 36px;
   color: #1e88ff; 
   margin-bottom: 10px;
 }
 
-.section-subtitle {
+.publications-subtitle {
   font-size: 19px;
   color: #000;
   margin-bottom: 40px;
@@ -388,24 +384,19 @@ header {
   line-height: 1.6;
 }
 
-@media (max-width: 768px) {
-  .publication-cards {
-    flex-direction: column;
-  }
-}
 
 .achievements-section {
   padding: 60px 8%;
 }
 
-.section-title {
+.achievements-title {
   font-size: 32px;
   font-weight: 700;
   color: #1e88ff;
   margin-bottom: 8px;
 }
 
-.section-subtitle {
+.achievements-subtitle {
   font-size: 19px;
   color:#000;
   margin-bottom: 40px;
@@ -444,14 +435,14 @@ header {
   padding: 60px 8%;
 }
 
-.section-title {
+.contact-title {
   color: #1e90ff;
   font-size: 36px;
   font-weight: bold;
   margin-bottom: 10px;
 }
 
-.section-subtitle {
+.contact-subtitle {
   margin: 40px;
   font-size: 18px;
   color:#000;
@@ -506,10 +497,4 @@ header {
   color:#000;
   text-align: center;
   font-weight: bold;
-}
-
-@media (max-width: 768px) {
-  .contact-grid {
-    grid-template-columns: 1fr;
-  }
 }

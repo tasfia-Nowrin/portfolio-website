@@ -10,7 +10,7 @@ This is my personal portfolio website built using **HTML & CSS**.
 - Contact information
 
 ## 🎨 Figma Design
-🔗 https://www.figma.com/proto/tXjt3uggFFGQSOpC4ojIER/Portfolio-landing-Page?node-id=0-1&t=fxc2NFcHH1EG0vhg-1
+🔗 https://www.figma.com/proto/tXjt3uggFFGQSOpC4ojIER/Portfolio-landing-Page?node-id=132-60&t=jPdT1159JrM4SbYc-1
 
 ## 🌐 Live Portfolio Website
 🔗 https://tasfia-nowrin.github.io/portfolio-website/
