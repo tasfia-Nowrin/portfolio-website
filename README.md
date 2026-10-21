@@ -29,6 +29,9 @@ portfolio-website/
 ├── elevate-4.jpg
 ├── elevate-5.jpg
 ├── portfolio.jpg        # Portfolio screenshot
+├── page-1.jpg           # Personal Learning Tracker project screenshots
+├── page-2.jpg
+├── page-3.jpg
 └── Tasfia_Nowrin_CV.docx
 ```
 
@@ -40,6 +43,7 @@ portfolio-website/
 | Student Information System (Qt) | C++, Qt |
 | ELEVATE — Scholarship Management | Django, MySQL, React.js, Node.js, HTML, CSS, JavaScript |
 | Personal Portfolio Website | HTML, CSS, JavaScript |
+| Personal Learning Tracker | HTML, CSS, Tailwind CSS, JavaScript |
 
 ## 🛠 Tools & Technologies
 - HTML5
