@@ -18,16 +18,19 @@ This is my personal portfolio website built using **HTML5, CSS3, JavaScript**.
 
 
 ## 📌 Project Structure
+
+```
 portfolio-website/
 ├── index.html
 ├── README.md
-├── elevate-1.jpg             # ELEVATE project screenshots
+├── elevate-1.jpg        # ELEVATE project screenshots
 ├── elevate-2.jpg
 ├── elevate-3.jpg
 ├── elevate-4.jpg
 ├── elevate-5.jpg
-├── portfolio.jpg             # Portfolio screenshot
+├── portfolio.jpg        # Portfolio screenshot
 └── Tasfia_Nowrin_CV.docx
+```
 
 ## Projects Featured
  
